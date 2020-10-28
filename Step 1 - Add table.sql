@@ -1,5 +1,5 @@
 /*The table is created*/
-CREATE TABLE movies (url text,
+CREATE TABLE IF NOT EXISTS movies (url text,
 title text,
 ReleaseDate text,
 Distributor text,
