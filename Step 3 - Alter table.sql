@@ -11,10 +11,10 @@ SET rank1 = ts_rank(lexemesSummary,plainto_tsquery(
 (SELECT Summary FROM movies WHERE url='inception')
 ));
 UPDATE movies
-SET rank2 = ts_rank(lexemesSummary,plainto_tsquery(
+SET rank2 = ts_rank(lexemesTitle,plainto_tsquery(
 (SELECT title FROM movies WHERE url='inception')
 ));
 UPDATE movies
-SET rank3 = ts_rank(lexemesSummary,plainto_tsquery(
+SET rank3 = ts_rank(lexemesStarring,plainto_tsquery(
 (SELECT Starring FROM movies WHERE url='inception')
 ));
