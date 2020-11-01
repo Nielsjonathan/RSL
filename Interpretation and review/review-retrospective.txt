@@ -1,0 +1,6 @@
+The results that I got from the SQL and Python recommender systems was nice. I will use those lists if I want to find another movie to watch in the future!
+
+
+I enjoyed working with the booklet very much. It gave the right amount of support to get you to the end result while still making you do most of the work.
+It would be nice if the booklet can be updated to also give the same level of instructions for the python part. 
+The python part for me was a lot more difficult since I have no previous experience with that. 
