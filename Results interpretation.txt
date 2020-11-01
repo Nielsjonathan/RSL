@@ -1,0 +1,9 @@
+Results interpretation.
+
+I don't really remember what I filled in as my favorite movie during the introduction week.
+I am quite sure it was a movie by Christopher Nolan but since I heard that many other people also have Inception or Insterstallar
+I picked a movie by Nolan that is less know called Memento. I used this movie for my recommender system.
+
+SQL part:
+
+I 

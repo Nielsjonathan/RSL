@@ -8,13 +8,13 @@ ADD COLUMN IF NOT EXISTS rank3 float4;
 /*The table is updated and the column rank is filled*/
 UPDATE movies
 SET rank1 = ts_rank(lexemesSummary,plainto_tsquery(
-(SELECT Summary FROM movies WHERE url='inception')
+(SELECT Summary FROM movies WHERE url='memento')
 ));
 UPDATE movies
 SET rank2 = ts_rank(lexemesTitle,plainto_tsquery(
-(SELECT title FROM movies WHERE url='inception')
+(SELECT title FROM movies WHERE url='memento')
 ));
 UPDATE movies
 SET rank3 = ts_rank(lexemesStarring,plainto_tsquery(
-(SELECT Starring FROM movies WHERE url='inception')
+(SELECT Starring FROM movies WHERE url='memento')
 ));
