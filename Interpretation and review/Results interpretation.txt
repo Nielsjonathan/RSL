@@ -2,7 +2,7 @@ Results interpretation.
 
 I don't really remember what I filled in as my favorite movie during the introduction week.
 I am quite sure it was a movie by Christopher Nolan but since I heard that many other people also have Inception or Insterstallar
-I picked a movie by Nolan that is less know called Memento. I tried to use this movie for my recommender system.
+I picked a movie by Nolan that is less know called Memento. I used this movie for my recommender system.
 
 SQL part:
 
@@ -15,12 +15,9 @@ Starring: I get some good recommendations here based on the actors in the movie 
 Python part:
 
 I tested the code by using "beach rats" this movie only has 3 authors so it doesn't take ages to compute.
-Once I got it working I changed beach rats to memento but after waiting for more than 1 hour to get a result I stopped the script.
-Because memento has many reviewers the time to compute all their other reviews is to hard for the RPI.
-I know that the code works because the beach rats output is correct. 
-I will have to look at a more efficient way of coding this system so it can work with bigger requests.
+Once I got it working I changed beach rats to Memento. Computing this took 105 minutes because there are many authors that rated Memento. 
+I will have to see how I can make this code run faster in the future.
 
-I see in the output from the beach rats script that I get all the movies that the three authors rated higher than beach rats.
-I don't have much use for this recommendation since I don't know beach rats but I will try to make my system work for Memento.
+The recommendations from the python script give me many good movies to watch and I really like that output gives me a list of movies to watch in the future :)
 
 
